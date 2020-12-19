@@ -1,4 +1,4 @@
-# simply-php-public-ip-address-api
+# A Simple Public IP Address API Server PHP Script
 Returns the visitor IP address (IPv4 or IPv6) in json format, useful for shell scripts or to find the external Internet routable address.
 
 ## Quick Start Guide
