@@ -4,7 +4,7 @@ Returns the visitor IP address (IPv4 or IPv6) in json format, useful for shell s
 ## Quick Start Guide
 1. Change `<YOUR_OWN_SECRET_KEY>` to your own secret
 2. Upload modified script to a php server
-3. Visit your uploaded script with a browser or curl with `?key=<YOUR_OWN_SECRET_KEY>`
+3. Visit your uploaded script with a browser or curl end with `?key=<YOUR_OWN_SECRET_KEY>`
 4. Enjoy.
 
 ## Usage Example
