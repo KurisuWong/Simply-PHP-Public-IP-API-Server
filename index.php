@@ -11,6 +11,9 @@
 			$remote_ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
 			$result->country = $_SERVER["HTTP_CF_IPCOUNTRY"];
 		}
+		else if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+			$remote_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+		}
 		else {
 			$remote_ip = $_SERVER['REMOTE_ADDR'];
 		}
